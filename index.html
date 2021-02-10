@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Vikram Ramkumar">
+
+  <title>Cling App</title>
+  
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+  <link href="css/index.min.css" rel="stylesheet">
+
+  <script>
+    window.onload = rotate;
+    
+    var screenshotIdx = 0;
+    var screenshots = new Array("img/4.png","img/1.png","img/2.png","img/3.png");
+    
+    function rotate() {
+      var screenshot = document.getElementById("screenshot-image")
+      screenshotIdx++;
+         if (screenshotIdx == screenshots.length) {
+          screenshotIdx = 0;
+         }
+    
+         screenshot.src = screenshots[screenshotIdx];
+         setTimeout(rotate, 6 * 1000);
+    }
+  </script>
+</head>
+
+<body id="page-top">
+  
+  <nav class="navbar navbar-expand navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/logo-with-title.png" class="header-img" alt="">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-5 col-md-5 col-sm-5 my-auto">
+          <div class="device-container" id="device-container">
+            <img class="img-fluid" id="screenshot-image" src="img/1.png" alt="App screenshot">
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 col-sm-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1>Climb Hard,</h1>
+            <h1>Record Easy</h1>
+            <h5>The best way to keep track of your climbs</h5>
+            <div class="badge-link">
+              <a href="https://apps.apple.com/us/app/cling-climb-log-train/id1549901150">
+                <img src="img/app-store-badge.svg" alt="Download Link">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Reach out to us!</h2>
+      <br/>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-3"></div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-xs-offset-3 text-center">
+          <a href="mailto:vik.r92@gmail.com">
+            <i class="far fa-envelope fa-4x header-img hvr-grow"></i>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 text-center">
+          <a href="https://www.instagram.com/cling.climb">
+            <i class="fab fa-instagram fa-4x header-img hvr-grow"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Cling 2020. All Rights Reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="https://docs.google.com/document/d/1Ox0kZAwnDIW9K_lTudVRahz2LIbCWi0quE3Egj1Im_k/edit?usp=sharing">Privacy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://docs.google.com/document/d/1Ms80lgWSb2D_JLbIqz1zh86lIBX-UXNmTQrNOd8juuk/edit?usp=sharing">Terms of Service</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="js/index.min.js"></script>
+
+</body>
+</html>
