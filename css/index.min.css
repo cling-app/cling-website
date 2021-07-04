@@ -201,18 +201,64 @@ header.masthead .device-container .screen img {
      margin-top: 20px
  }
  
+section.about-us h2 {
+    text-align: center
+}
  
+section.about-us h3 {
+    font-weight: 500;
+    margin-top: 18px;
+    text-align: center;
+    letter-spacing: 0px;
+}
+ 
+section.about-us h6 {
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+}
+ 
+section.about-us p {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
  section.contact {
+     background-color: #fcbd20;
      text-align: center
  }
- 
+
+ @media (max-width:768px) {
+    section.about-us h3 {
+        font-size: 22px;
+    }
+ }
+
+ @media (min-width:576px) {
+    section.about-us {
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 0
+    }
+}
+
  @media (min-width:768px) {
     section.contact h2 {
         font-size: 38px;
         margin-top: 0;
         margin-bottom: 25px
     }   
+
+    section.about-us h2 {
+        font-size: 38px;
+        margin-top: 0;
+        margin-bottom: 25px
+    }
 }
+
+
  section.contact i {
      color: rgba(189,79,108,1)
  }
@@ -322,6 +368,21 @@ section.contact a {
      padding-right: 0;
      padding-left: 0
  }
+ 
+ .profile-img {
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: #fdcc52
+ }  
+
+ @media (min-width:576px) {
+    .profile-img {
+       max-height: 100%;
+       max-width: 100%;
+    }  
+}
  
  .btn-outline {
      color: #fff;
