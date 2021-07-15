@@ -238,6 +238,10 @@ section.about-us p {
 
  @media (min-width:576px) {
     section.about-us {
+        max-height: 500px;
+    } 
+
+    section.about-us {
         height: 100%;
         padding-top: 50px;
         padding-bottom: 0
@@ -245,6 +249,10 @@ section.about-us p {
 }
 
  @media (min-width:768px) {
+    section.about-us {
+        max-height: 600px;
+    } 
+
     section.contact h2 {
         font-size: 38px;
         margin-top: 0;
