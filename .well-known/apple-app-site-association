@@ -1,14 +1,15 @@
 {
   "applinks": {
+      "apps": [],
       "details": [
-           {
-             "appIDs": ["KLWCM2HZ53.com.cling.cling","KLWCM2HZ53.com.vik.cling"],
-             "components": [
-               {
-                  "/": "/gym_post/*"
-               }
-             ]
-           }
-       ]
-   }
+          {
+              "appID": "KLWCM2HZ53.com.cling.cling",
+              "paths": ["/gym_post/*"]
+          },
+          {
+              "appID": "KLWCM2HZ53.com.vik.cling",
+              "paths": ["/gym_post/*"]
+          }
+      ]
+  }
 }
