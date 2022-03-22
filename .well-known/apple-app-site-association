@@ -1,0 +1,14 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": ["KLWCM2HZ53.com.cling.cling","KLWCM2HZ53.com.vik.cling"],
+             "components": [
+               {
+                  "/": "/posts/*"
+               }
+             ]
+           }
+       ]
+   }
+}
