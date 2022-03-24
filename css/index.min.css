@@ -263,13 +263,15 @@ section.details p {
 }
 
 .download-button {
-    background-color: #fff;
-    color: #335d81;
-    padding: 20px 100px;
+    background-color: #335d81;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: min(100px, 15%);
+    padding-right: min(100px, 15%);
     border: none;
     border-radius: 300px;
     font-weight: 600;
-    text-transform: uppercase;
     font-size: 20px;
 }
 
