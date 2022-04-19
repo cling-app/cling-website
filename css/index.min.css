@@ -197,9 +197,10 @@ header.masthead .device-container .screen img {
     }
 }
  
- header.masthead .badge-link {
-     height: 60px;
-     margin-top: 20px
+.badge-link {
+     height: 80px;
+     padding-top: 20px;
+     text-align: center;
  }
 
 section.details {
@@ -267,8 +268,8 @@ section.details p {
     color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: min(100px, 15%);
-    padding-right: min(100px, 15%);
+    padding-left: min(50px, 30%);
+    padding-right: min(50px, 30%);
     border: none;
     border-radius: 300px;
     font-weight: 600;
