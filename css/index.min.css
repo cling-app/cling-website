@@ -313,7 +313,7 @@ section.about-us p {
 
  @media (min-width:576px) {
     section.about-us {
-        max-height: 550px;
+        max-height: 750px;
     } 
 
     section.about-us {
@@ -325,7 +325,7 @@ section.about-us p {
 
  @media (min-width:768px) {
     section.about-us {
-        max-height: 650px;
+        max-height: 690px;
     } 
 
     section.contact h2 {
