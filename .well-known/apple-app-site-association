@@ -7,6 +7,7 @@
               "paths": [
                 "/gym_post/*",
                 "/session/*",
+                "/user/*",
                 "/tab/*"
                 ]
           },
@@ -15,6 +16,7 @@
               "paths": [
                 "/gym_post/*",
                 "/session/*",
+                "/user/*",
                 "/tab/*"
             ]
           }
