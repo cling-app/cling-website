@@ -5,6 +5,9 @@
           {
               "appID": "KLWCM2HZ53.com.cling.cling",
               "paths": [
+                "/gym/*",
+                "/gym_area/*",
+                "/gym_climb/*",
                 "/gym_post/*",
                 "/session/*",
                 "/user/*",
@@ -14,6 +17,9 @@
           {
               "appID": "KLWCM2HZ53.com.vik.cling",
               "paths": [
+                "/gym/*",
+                "/gym_area/*",
+                "/gym_climb/*",
                 "/gym_post/*",
                 "/session/*",
                 "/user/*",
