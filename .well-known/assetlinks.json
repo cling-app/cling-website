@@ -1,8 +1,13 @@
 [
   {
       "relation": ["delegate_permission/common.handle_all_urls"],
-      "target" : { "namespace": "android_app", "package_name": "com.cling.dev",
-               "sha256_cert_fingerprints": ["0A:27:52:60:2C:81:A8:57:D6:54:0A:04:FC:36:37:01:1E:61:3D:44:E6:FE:97:03:4D:D1:7A:E2:37:5F:EB:C5"] }
+      "target" : { 
+        "namespace": "android_app", "package_name": "com.cling.dev",
+        "sha256_cert_fingerprints": [
+          "0A:27:52:60:2C:81:A8:57:D6:54:0A:04:FC:36:37:01:1E:61:3D:44:E6:FE:97:03:4D:D1:7A:E2:37:5F:EB:C5",
+          "11:8B:64:E1:78:BB:BB:A6:B5:76:D9:34:43:02:88:42:A5:11:ED:6B:2E:90:19:3D:AE:3B:06:7F:A5:17:61:36"
+        ]
+      }
   },
   {
       "relation": ["delegate_permission/common.handle_all_urls"],
