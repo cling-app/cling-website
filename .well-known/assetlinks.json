@@ -7,6 +7,6 @@
   {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target" : { "namespace": "android_app", "package_name": "com.clingapp.com",
-               "sha256_cert_fingerprints": ["87:9f:ed:14:73:8b:01:ae:15:f5:dc:a4:1a:cc:89:9d:0a:87:ab:9e:6e:22:2c:c2:39:eb:9c:85:a8:39:bc:6b"] }
+               "sha256_cert_fingerprints": ["F3:96:43:14:32:68:B7:27:35:BF:61:33:EA:9D:26:02:4F:FE:E6:DC:04:C2:C8:3A:6E:CB:EE:FF:F5:A4:D9:66"] }
   }
 ]
